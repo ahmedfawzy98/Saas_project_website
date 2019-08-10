@@ -43,7 +43,7 @@
     background-color: darken(#428bca,20%) !important;
   }
 }
-.btn-primary:visited, .btn-danger:visited {
+.btn-primary:visited, .btn-danger:visited , .btn-success:visited{
   color: #fff;
 }
 .features {
@@ -118,4 +118,8 @@
   background: #000;
   color: #fff !important;
   padding-bottom: 5px;
+}
+.remember_me{
+  padding-left: 20px;
+  padding-top: 2px;
 }
