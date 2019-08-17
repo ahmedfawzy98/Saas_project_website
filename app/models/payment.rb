@@ -11,6 +11,9 @@ class Payment < ApplicationRecord
   end
 
   def process_payment
+    if self.email.blank?
+      self.email = self.tenant.get_account_mail
+    end
     customer = Stripe::Customer.create email: email, card: token
     Stripe::Charge.create customer: customer.id, amount: 1000, description: 'Premium', currency: 'usd'
 

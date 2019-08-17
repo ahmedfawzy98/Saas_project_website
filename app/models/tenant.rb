@@ -52,5 +52,9 @@ class Tenant < ApplicationRecord
       #
     end
 
+
+  def get_account_mail
+    self.users.find_by_is_admin(is_admin: true).email
+  end
    
 end
