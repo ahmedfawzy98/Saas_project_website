@@ -1,24 +1,19 @@
-# README
+# Saas-Website
+This is a simple project management website as a hobby project aimed to learn Ruby on Rails, Bootstrap and honing web development skills.\
+[Saas-Website](https://saas-project-app-ahmed.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
+* Organizations accounts with subscription in free or premium plans.
+* Account Activation mail.
+* Projects dashboard for the organization.
+* Organization's ability to add new project, show the dashboard of it, edit it and add, edit or delete users from it.
+* Organization's ability to add members to it.
+* Organization's ability to change the subscribed plan, edit the profile and cancellation of account.
 
-Things you may want to cover:
+## Built with
+[Ruby on Rails](https://rubyonrails.org/)\
+[Bootstrap](https://getbootstrap.com)
 
-* Ruby version
+## Deployment
+[Heroku](https://heroku.com/)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
